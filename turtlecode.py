@@ -1,3 +1,5 @@
+#Basic snippets of turtle programming#
+
 import turtle
 turtle.speed(10)
 

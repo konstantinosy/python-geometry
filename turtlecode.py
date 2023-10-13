@@ -26,4 +26,4 @@ def polygonCreator(sides): #The exterior angle sum of a convex polygon is always
         turtle.forward(100)
         turtle.left(360 / sides)
 
-input("Press any key and enter to exit: ")
+input("Press any key and enter to exit!: ")

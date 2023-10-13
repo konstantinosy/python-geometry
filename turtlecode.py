@@ -1,26 +1,29 @@
 import turtle
 turtle.speed(10)
 
-def drawSquare(lengthOfSquare): #Draws a square taking a parameter of the square's sidelength.
+def drawSquare(lengthOfSquare): #Function that creates a square. Uses a parameter for the sidelength of the square.
     for x in range(4):
         turtle.forward(lengthOfSquare)
         turtle.left(90)
 
-def drawTriangle(lengthOfTriangle): #Draws a triangle taking a parameter of the triangle's sidelength.
+def drawTriangle(lengthOfTriangle): #Function that creates a triangle. Uses a parameter for the sidelength of the triangle.
     for x in range(3):
         turtle.forward(lengthOfTriangle)
         turtle.left(120)
 
-def cyclicalSquare(rotationCount): #Uses the square function to draw multimple rotating squares.
+def cyclicalSquare(rotationCount): #Utilizes the square function to draw N rotating squares.
     for x in range(rotationCount):
         drawSquare(200)
         turtle.left(5)
 
-def cyclicalTriangle(rotationCount): #Sses the triangle function to draw multiple rotating triangles.
+def cyclicalTriangle(rotationCount): #Utilizes the triangle function to draw N rotating triangles.
     for x in range(rotationCount):
         drawTriangle(100)
         turtle.left(5)
 
-cyclicalSquare(60)
+def polygonCreator(sides): #The exterior angle sum of a convex polygon is always 360. Dividing 360 by the sides yields each angle.
+    for x in range(sides):
+        turtle.forward(100)
+        turtle.left(360 / sides)
 
 input("Press any key and enter to exit: ")

@@ -1,4 +1,4 @@
-#Basic snippets of turtle programming#
+#Basic snippets of turtle programming
 
 import turtle
 turtle.speed(10)
@@ -23,7 +23,7 @@ def cyclicalTriangle(rotationCount): #Utilizes the triangle function to draw N r
         drawTriangle(100)
         turtle.left(5)
 
-def polygonCreator(sides): #The exterior angle sum of a convex polygon is always 360. Dividing 360 by the sides yields each angle.
+def polygonCreator(sides): #The exterior angle sum of a convex polygon is always 360. Dividing 360 by the sides yields each angle. Creates a polygon.
     for x in range(sides):
         turtle.forward(100)
         turtle.left(360 / sides)

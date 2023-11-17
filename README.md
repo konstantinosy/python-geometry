@@ -1,4 +1,4 @@
-### Using geometry in python.
+### This repository contains exercises I have done from the Math Adventures in Python book.
 
 Exercises finished:
 

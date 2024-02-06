@@ -1,6 +1,4 @@
-### This repository contains exercises I have done from the Math Adventures in Python book.
-
-Exercises finished:
+### Some geometric snippers to use with tkinter in python.
 
 1) Drawing a Square. (turtle module)
 

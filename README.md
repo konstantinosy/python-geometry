@@ -1,4 +1,4 @@
-### Some geometric snippers to use with tkinter in python.
+### Some geometric snippets to use with tkinter in python.
 
 1) Drawing a Square. (turtle module)
 
